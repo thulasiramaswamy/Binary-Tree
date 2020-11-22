@@ -22,7 +22,7 @@ struct Node* newNode(int value)
 2. Find the height of right sub tree
 3. Find the diameter of left sub tree
 4. Find the diameter of right sub tree
-5. 
+5. take the max of (lheight + rheight + 1), max(ldiameter, rdiameter) 
 */
 int diameter(struct Node* p)
 {
